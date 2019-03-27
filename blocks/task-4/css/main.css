@@ -25,3 +25,34 @@
 Изменить начертание на курсивное и поменять семейство шрифта на serif (с засечками).
 
 */
+
+.main-header {
+    font-size: 56px;
+    color: #365f91;
+    font-family: serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.lead strong {
+    text-decoration: underline;
+}
+
+ul {
+    color:#365f91;
+}
+
+ul ul li {
+    list-style-type: circle; 
+}
+ul li {
+    list-style-type: square;
+}
+blockquote {
+    background-image: url(http://teacher.shapkin.su/wp-content/uploads/2019/03/back.jpg);
+    color: #494429;
+    font-family: serif;
+    font-style: italic;
+}
