@@ -26,6 +26,14 @@ section:first-of-type {
   height: 100px;
 }
 
+.clear {
+    clear: both;
+}
+
+.second-parent {
+  overflow: auto;
+}
+
 /* Ваше решение задания №1 */
 
 
@@ -35,18 +43,25 @@ section:first-of-type {
   background: green;
   max-width: 700px;
   border: 5px solid black;
+  position: relative;
+  right: -40px;
 }
 
 .blue {
   width: 50px;
   height: 50px;
   background: blue;
+  position:absolute;
+  right: 0;
 }
 
 .yellow {
   width: 50px;
   height: 50px;
-  background: yellow;
+  background: yellow; 
+  position: absolute;
+  right: -30px;
+  top: -30px;
 }
 
 /* Ваше решение задания №2 */
@@ -60,6 +75,15 @@ section:first-of-type {
 .fourth-parent div {
   height: 300px;
   border: 2px solid red;
+}
+
+.fourth-left {
+width: 250px;
+float: left;
+}
+
+.fourth-parent  {
+  overflow: auto;
 }
 
 /* Ваше решение дополнительного задания */

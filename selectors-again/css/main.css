@@ -72,3 +72,31 @@
 }
 
 /* Пишите ваш код ниже */
+
+div.block:nth-child(n+9) {
+	visibility: hidden;
+}
+
+ul.calendar-days li:nth-child(7n+6) {
+background-color: red;	
+}
+
+ul.calendar-days li:nth-child(7n+7) {
+	background-color: red;
+}
+ul.customed-list {
+	list-style-type:none;
+}
+
+ul.customed-list li:nth-child(2n)::before {
+content: "@";
+}
+ul.customed-list li:nth-child(2n+1)::before{
+	content: "*";	
+}
+ul.customed-list li {
+	padding-bottom: 20px; 
+}
+ul.customed-list li:last-child {
+padding-bottom: 0px;
+}
